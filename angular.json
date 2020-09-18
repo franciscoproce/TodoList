@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "todoList2"
+    }
+  },
+  "defaultProject": "todoList2",
+  "cli": {
+    "analytics": false
+  }
 }

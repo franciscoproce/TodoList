@@ -1,0 +1,11 @@
+<form class="form" (ngSubmit)="onSubmit()" >
+    <input type="text" name="nombre" [(ngModel)]="todos.nombre" placeholder="Nombre"> 
+    <input type="text" name="descripcion" [(ngModel)]="todos.descripcion" placeholder="Descripcion">
+    <input type="text" name="titulo" [(ngModel)]="todos.titulo" placeholder="titulo">
+    <input type="submit" class="btn" value="Guardar">
+    
+    <div *ngFor="let todo1 of todoArray , let i = index" >
+        {{ todo1 }}
+        
+    </div>
+</form>
